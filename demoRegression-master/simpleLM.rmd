@@ -13,6 +13,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 bears <- read.csv(file="BEARS.csv",header = TRUE)
+#adjust factors to be factors
+bears$SEX<- as.factor(bears$SEX)
+bears$MONTH<- as.factor(bears$MONTH)
 ```
 
 ## Model LENGTH ~ NECK  this is an example  
