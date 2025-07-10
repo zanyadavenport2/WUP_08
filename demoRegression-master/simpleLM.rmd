@@ -58,3 +58,11 @@ summary.lm(bHEADWTH)
 
 After comparing the NECK model, the AGE, HEADLEN, HEADWTH models in order from biggest to smallest is HEADLEN- 0.8434, NECK- 0.7476, HEADWTH- 0.5321, and AGE- 0.5073.
 
+
+```{r}
+bCHEST <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(bCHEST)
+summary.lm(bCHEST)
+```
+
