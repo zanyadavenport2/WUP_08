@@ -47,4 +47,12 @@ abline(bHEADLEN)
 summary.lm(bHEADLEN)
 ```
 
-After comparing the NECK model, the AGE, and HEADLEN model in order from biggest to smallest is HEADLEN-0.8434, NECK-0.7476, AGE-0.5073
+After comparing the NECK model, the AGE, and HEADLEN model in order from biggest to smallest is HEADLEN- 0.8434, NECK- 0.7476, AGE- 0.5073
+
+```{r}
+bHEADWTH <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(bHEADWTH)
+summary.lm(bHEADWTH)
+```
+
