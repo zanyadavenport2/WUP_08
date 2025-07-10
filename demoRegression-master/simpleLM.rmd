@@ -38,6 +38,6 @@ abline(bAGE)
 summary.lm(bAGE)
 ```
 
-
+We want to compare the model with age to the other model with neck. Ordering by the adjusted R square in the model with neck we got 0.7476 and for the age model it was 0.5073. With this we found out that neck is better than age.
 
 
